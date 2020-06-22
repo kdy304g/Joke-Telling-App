@@ -200,6 +200,5 @@
     <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-base:19.2.0@aar" level="project" />
     <orderEntry type="module" module-name="jokeactivity" />
-    <orderEntry type="module" module-name="javaJoke" />
   </component>
 </module>

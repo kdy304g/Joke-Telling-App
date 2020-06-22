@@ -25,6 +25,7 @@ class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
 
     @Override
     protected String doInBackground(Context... params) {
+        context = params[0];
         if(myApiService == null) {  // Only do this once
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
@@ -38,8 +39,6 @@ class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
 
             myApiService = builder.build();
         }
-
-        context = params[0];
 
         try {
             return myApiService.tellJoke().execute().getData();

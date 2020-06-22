@@ -1,0 +1,21 @@
+Jun 22, 2020 8:43:31 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/Danny/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/Danny/Udacity/Joke-App/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+2020-06-22 20:43:31.915:INFO::main: Logging initialized @790ms to org.eclipse.jetty.util.log.StdErrLog
+2020-06-22 20:43:31.955:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Jun 22, 2020 11:43:32 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (/Users/Danny/Udacity/Joke-App/backend) is not equal to your 
+web application root (/Users/Danny/Udacity/Joke-App/backend/build/exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+2020-06-22 20:43:32.190:INFO:oejs.Server:main: jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_242-release-1644-b3-6222593
+2020-06-22 20:43:32.503:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@15888343{/,file:///Users/Danny/Udacity/Joke-App/backend/build/exploded-backend/,AVAILABLE}{/Users/Danny/Udacity/Joke-App/backend/build/exploded-backend}
+2020-06-22 20:43:32.504:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2020-06-22 20:43:32.504:INFO:oejs.session:main: node0 Scavenging disabled
+2020-06-22 20:43:32.512:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@335eadca{HTTP/1.1, (http/1.1)}{localhost:8080}
+2020-06-22 20:43:32.516:INFO:oejs.Server:main: Started @1390ms
+Jun 22, 2020 11:43:32 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Jun 22, 2020 11:43:32 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Jun 22, 2020 8:43:32 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
